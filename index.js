@@ -1,9 +1,10 @@
-const  express = require('express');
-const  routes = require('./routes');
+const express = require('express');
+const router = require('./routers');
 
-// crear una app de express
+//crear la aplicación express
 const app = express();
 
-app.use('/', routes() );
+//rutas 
+app.use('/', router()); 
 
-app.listen(9999);
+app.listen(9999)
