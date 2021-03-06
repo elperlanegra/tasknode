@@ -9,5 +9,6 @@ module.exports = function () {
 
   router.get("/", proyectosController.proyectosHome);
 
+
   return router;
 };
