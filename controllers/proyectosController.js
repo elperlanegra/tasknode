@@ -1,8 +1,8 @@
-exports.proyectosHome = (trq, res) =>{
+exports.proyectosHome = (req, res) =>{
     res.send('Index');
 }
 
 
-exports.nosotros = (trq, res) =>{
+exports.nosotros = (req, res) =>{
     res.send('Nosotros');
 }

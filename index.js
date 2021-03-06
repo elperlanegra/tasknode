@@ -1,10 +1,10 @@
 const express = require('express');
-const routes  = require('./routes');
+const routes = require('./routes');
 
 //crear la aplicación express
 const app = express();
 
 //rutas 
-app.use('/', routes()); 
+app.use('/', routes() );
 
-app.listen(3000);
+app.listen(3000)
